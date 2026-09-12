@@ -12,7 +12,7 @@ namespace Tyuiu.ShakinVV.Sprint0.Task2.V0.Test
         {
             var name = "Вовчик";
             var res = DataService.GetMessage(name);
-
+            
             Assert.AreEqual("Привет..., Вовчик", res);
         }
     }
