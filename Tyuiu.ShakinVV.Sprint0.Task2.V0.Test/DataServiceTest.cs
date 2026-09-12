@@ -10,11 +10,9 @@ namespace Tyuiu.ShakinVV.Sprint0.Task2.V0.Test
         [TestMethod]
         public void CheckGetMessageValid()
         {
-            // Область создания методов тестирования, методов из библиотеки
             var name = "Вовчик";
             var res = DataService.GetMessage(name);
 
-            // Вызываем класс Assert и метод AreEqual
             Assert.AreEqual("Привет..., Вовчик", res);
         }
     }
